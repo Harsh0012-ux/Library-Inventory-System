@@ -1,0 +1,16 @@
+[
+    {
+        "title": "The Silent Echo",
+        "author": "Mira Hales",
+        "isbn": "978-1-4472-8821-3",
+        "available": true,
+        "borrow_count": 0
+    },
+    {
+        "title": "Quantum Drift",
+        "author": "Adrian Locke",
+        "isbn": "978-0-3294-5512-8",
+        "available": true,
+        "borrow_count": 0
+    }
+]
