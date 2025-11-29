@@ -1,104 +1,73 @@
 # Library Inventory System (Python OOP Project)
 
-A modular and object-oriented Library Inventory System implemented in Python.
+A modular and object-oriented **Library Inventory System** implemented in Python.  
 This project simulates a real-world library by allowing users to add books, register members, borrow/return books, and store all data using JSON files for persistence.
 
-# Features
-Core Operations
+---
 
-Add new books to the library
+## 📌 Features
 
-Register library members
+### Core Operations
+- Add new books to the library  
+- Register library members  
+- Borrow books (with availability checks)  
+- Return borrowed books  
+- View borrowed books per member  
 
-Borrow books (with availability checks)
+### Data Persistence
+- Automatically saves all books and member data to JSON  
+- Loads saved data automatically when the system restarts  
+- Handles missing or corrupted files using try-except  
 
-Return borrowed books
+### Analytics Report
+Includes:
+- Most borrowed book  
+- Total number of active members  
+- Number of books currently borrowed  
 
-View borrowed books per member
+### Interactive User Menu
+Provided through `main.py`:
 
-Data Persistence
+# Library Inventory System (Python OOP Project)
 
-Automatically saves all books and member data to JSON
+A modular and object-oriented **Library Inventory System** implemented in Python.  
+This project simulates a real-world library by allowing users to add books, register members, borrow/return books, and store all data using JSON files for persistence.
 
-Data is reloaded every time the program restarts
+---
 
-Error handling for missing/corrupted files
+## 📌 Features
 
-Analytics Report
+### Core Operations
+- Add new books to the library  
+- Register library members  
+- Borrow books (with availability checks)  
+- Return borrowed books  
+- View borrowed books per member  
 
-Includes simple insights such as:
+### Data Persistence
+- Automatically saves all books and member data to JSON  
+- Loads saved data automatically when the system restarts  
+- Handles missing or corrupted files using try-except  
 
-Most borrowed book
+### Analytics Report
+Includes:
+- Most borrowed book  
+- Total number of active members  
+- Number of books currently borrowed  
 
-Total number of active members
+### Interactive User Menu
+Provided through `main.py`:
 
-Number of books currently borrowed
+## 📁 Project Structure
 
-Interactive User Menu
-
-The main.py file provides a command-line menu for easy interaction:
-
-1. Add Book
-2. Register Member
-3. Borrow Book
-4. Return Book
-5. View Library Report
-6. Exit
-
-📁 Project Structure
 library_system/
 │
-├── book.py           # Book class (title, author, ISBN, availability)
-├── member.py         # Member class (name, ID, borrowed books)
-├── library.py        # Core logic: add, register, lend, return, save/load
-├── main.py           # User interface (interactive menu)
+├── book.py # Book class (title, author, ISBN, availability)
+├── member.py # Member class (name, ID, borrowed books)
+├── library.py # Core logic: add, register, lend, return, save/load
+├── main.py # User menu + program entry point
 │
-├── books.json        # Auto-generated book records
-└── members.json      # Auto-generated member records
+├── books.json # Auto-generated book records storage
+└── members.json # Auto-generated member records storage
 
-🧩 File Overview
-book.py
 
-Defines the Book class
-
-Tracks:
-
-Title
-
-Author
-
-ISBN
-
-Availability
-
-Borrow count (for analytics)
-
-member.py
-
-Defines the Member class
-
-Stores:
-
-Member name
-
-Member ID
-
-List of borrowed book ISBNs
-
-library.py
-
-Handles all core processing:
-
-Add books
-
-Register members
-
-Borrow/return operations
-
-JSON file save/load
-
-Analytics generation
-
-main.py
-
-Runs an interactive loop menu for user operations.
