@@ -5,7 +5,7 @@ This project simulates a real-world library by allowing users to add books, regi
 
 ---
 
-## 📌 Features
+## Features
 
 ### Core Operations
 - Add new books to the library  
@@ -35,7 +35,7 @@ This project simulates a real-world library by allowing users to add books, regi
 
 ---
 
-## 📌 Features
+## Features
 
 ### Core Operations
 - Add new books to the library  
@@ -58,7 +58,7 @@ Includes:
 ### Interactive User Menu
 Provided through `main.py`:
 
-## 📁 Project Structure
+## Project Structure
 
 library_system/
 │
